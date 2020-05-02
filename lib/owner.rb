@@ -43,4 +43,8 @@ class Owner
   # Class methods
   #  .all returns all instances of Owner that have been created
 
+  def self.all 
+    @@all 
+  end 
+
 end
