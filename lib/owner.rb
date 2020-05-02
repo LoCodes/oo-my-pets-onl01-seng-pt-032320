@@ -51,7 +51,7 @@ class Owner
   end
 
   def self.count
-    self.count
+    self.all.count
   end
 
 end
