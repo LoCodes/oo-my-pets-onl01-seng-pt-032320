@@ -29,4 +29,9 @@ class Owner
   def species
     "#{@species}"
   end
+
+  def
+  end 
+    
+  end
 end
