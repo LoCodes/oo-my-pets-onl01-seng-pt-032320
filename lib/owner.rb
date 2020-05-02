@@ -12,7 +12,7 @@
 #     .all returns all instances of Owner that have been created (FAILED - 6)
 #     .count returns the number of owners that have been created (FAILED - 7)
 #     .reset_all can reset the owners that have been created
-# 
+#
 # Instance methods
 #   #name
 #     can have a name
