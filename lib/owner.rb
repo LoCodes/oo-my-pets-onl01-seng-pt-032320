@@ -19,10 +19,11 @@
 #     cannot change owner's name
 
 class Owner
-  attr_reader :name
+  attr_reader :name, :species
 
   def initialize(name, species="human")
     @name = name
+    @species = species
   end
 
   def species
