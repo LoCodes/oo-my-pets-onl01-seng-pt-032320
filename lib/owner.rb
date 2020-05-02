@@ -67,8 +67,8 @@ class Owner
   #     returnsa a collection of all the cats that belong to the owner
 
   def cats
-    Cat.select do |c|
-      c.owner == self
+    Cat.select do |cat|
+      cat.owner == self
     end
   end
 
