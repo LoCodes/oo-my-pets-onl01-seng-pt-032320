@@ -80,7 +80,7 @@ class Owner
 
   def buy_cat(name)
     Owner.new(name, self)
-    binding.pry
+    #binding.pry
   end
 
 end
