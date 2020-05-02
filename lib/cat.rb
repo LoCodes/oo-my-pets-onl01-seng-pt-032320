@@ -19,6 +19,9 @@ class Cat
     @mood = mood
     @@all << self
   end
+  
+  # Class methods
+  #  knows all the cats
 
   def self.all
     @@all
