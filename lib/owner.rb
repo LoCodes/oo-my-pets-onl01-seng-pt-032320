@@ -56,7 +56,7 @@ class Owner
     self.all.count
   end
 
-  # .reset_all can reset the owners that have been created
+  # .reset_all can reset the owners(all) that have been created
   def self.reset_all
     self.all.clear
   end
