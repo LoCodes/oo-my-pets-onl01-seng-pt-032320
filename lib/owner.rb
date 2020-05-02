@@ -49,6 +49,8 @@ class Owner
   def self.all
     @@all
   end
+ 
+  # .count returns the number of owners that have been created
 
   def self.count
     self.all.count
