@@ -14,7 +14,7 @@
 #     .reset_all can reset the owners that have been created
 
 class Owner
-  attr_accessor :name 
+  attr_accessor :name
 
   def initialize(name)
   end
