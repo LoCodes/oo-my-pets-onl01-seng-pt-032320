@@ -86,6 +86,10 @@ class Owner
     Cat.new(name, self)
   end
 
+  # #buy_dog
+  #   can buy a dog that is an instance of the Dog class
+  #   knows about its dogs
+
   def buy_dog(name)
     Dog.new(name, self)
   end
