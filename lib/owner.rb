@@ -68,8 +68,8 @@ class Owner
 
   def cats
     Cat.select do |c|
-      c.owner == name
-    end 
+      c.owner == self
+    end
   end
 
 end
