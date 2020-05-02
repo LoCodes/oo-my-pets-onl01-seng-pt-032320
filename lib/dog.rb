@@ -15,6 +15,6 @@ class Dog
   #   knows all the dogs
 
   def self.all
-    @@all 
+    @@all
   end
 end
