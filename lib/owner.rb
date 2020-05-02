@@ -31,7 +31,7 @@ class Owner
   end
 
   def
-  end 
-    
+  end
+
   end
 end
