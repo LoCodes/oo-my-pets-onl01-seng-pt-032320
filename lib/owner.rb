@@ -94,7 +94,11 @@ class Owner
     Dog.new(name, self)
   end
 
-  def walk_dog 
+  # #walk_dogs
+  #     walks the dogs(plural so all dogs!) which makes the dogs' moods happy
+
+  def walk_dog(name)
+    Dog.all.each {|dog| dog.mood = "happy"}
   end
 
 end
