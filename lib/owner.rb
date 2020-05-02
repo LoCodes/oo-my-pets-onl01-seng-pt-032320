@@ -112,6 +112,7 @@ class Owner
 
   # #sell_pets
   #   can sell all its pets, which makes them nervous
+  #   can sell all its pets, which leaves them without an owner
 
   def sell_pets
     pets = dogs + cats
@@ -119,7 +120,7 @@ class Owner
     pets.each do |pet|
       pet.mood = "nervous"
       pet.owner = nil
-    end 
+    end
   end
 
 end
