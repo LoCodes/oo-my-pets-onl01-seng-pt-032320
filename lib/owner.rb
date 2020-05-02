@@ -39,12 +39,12 @@ class Owner
   def say_species
     "I am a #{@species}."
   end
-  # 
+  #
   # Class methods
   #  .all returns all instances of Owner that have been created
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end 
 
 end
