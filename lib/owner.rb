@@ -72,7 +72,7 @@ class Owner
   end
 
   # #dogs
-  #     returnsa a collection of all the dogs that belong to the owner
+  #     returns a collection of all the dogs that belong to the owner
 
   def dogs
     Dog.all.select {|d| d.owner == self}
@@ -97,9 +97,17 @@ class Owner
   # #walk_dogs
   #     walks the dogs(plural so all dogs!) which makes the dogs' moods happy
 
+  #we can call .dogs because we made a method that returns all instances of dogs 
+
   def walk_dogs
-    self.dogs.each {|dog| dog.mood = "happy"}
-    #binding.pry
+    self.dogs.each {|dog| dog.mood = "happy"} 
   end
+
+  # #feed_cats
+  #     feeds cats which makes the cats' moods happy
+
+  def feed_cats 
+    self.cats.each {|c| c.mood = "happy"}
+  end 
 
 end
