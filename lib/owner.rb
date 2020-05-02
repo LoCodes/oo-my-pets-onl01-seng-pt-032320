@@ -26,7 +26,7 @@ class Owner
   def initialize(name, species="human")
     @name = name
     @species = species
-    @@all << self 
+    @@all << self
   end
 
   # #species
@@ -48,6 +48,10 @@ class Owner
 
   def self.all
     @@all
+  end
+
+  def self.count
+    self.count
   end
 
 end
