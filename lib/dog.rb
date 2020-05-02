@@ -14,7 +14,7 @@ class Dog
   # Class methods
   #   knows all the dogs
 
-  def sel.all
+  def self.all
     @@all 
   end
 end
