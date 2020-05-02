@@ -114,7 +114,8 @@ class Owner
   #   can sell all its pets, which makes them nervous
 
   def sell_pets
-    pets = dogs + cats 
+    pets = dogs + cats
+    binding.pry
   end
 
 end
