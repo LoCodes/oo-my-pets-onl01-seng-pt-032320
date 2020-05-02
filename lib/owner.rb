@@ -21,12 +21,12 @@
 class Owner
   attr_reader :name, :species, :say_species
 
-  def initialize(name, species)
+  def initialize(name, species="human")
     @name = name
-    @species = "human"
+    @species = species
   end
 
   def species
-    @species
+    "I am a #{self.species}."
   end
 end
