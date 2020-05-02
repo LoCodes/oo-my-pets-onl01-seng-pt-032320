@@ -21,10 +21,9 @@
 class Owner
   attr_reader :name, :species, :say_species
 
-  def initialize(name, species="human", say_species)
+  def initialize(name, species="human")
     @name = name
     @species = species
-    @say_species = say_species
   end
 
   # def species
