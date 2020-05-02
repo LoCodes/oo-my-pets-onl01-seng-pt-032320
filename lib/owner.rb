@@ -34,5 +34,4 @@ class Owner
     "I am a #{@species}."
   end
 
-  end
 end
