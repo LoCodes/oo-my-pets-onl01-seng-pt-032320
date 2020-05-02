@@ -70,6 +70,9 @@ class Owner
     Cat.all.select {|cat| cat.owner == self}
   end
 
+  # #dogs
+  #     returnsa a collection of all the dogs that belong to the owner
+
   def dogs 
     Dog.all.select {|d| d.owner == self}
   end
