@@ -26,6 +26,7 @@ class Owner
     @species = species
   end
 
-  # def species
-  # end
+  def species
+    "I am a #{@species}."
+  end
 end
