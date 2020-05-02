@@ -110,4 +110,11 @@ class Owner
     self.cats.each {|c| c.mood = "happy"}
   end
 
+  # #sell_pets
+  #   can sell all its pets, which makes them nervous
+
+  def sell_pets
+    pets = dogs + cats 
+  end 
+
 end
