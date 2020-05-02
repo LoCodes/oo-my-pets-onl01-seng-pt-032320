@@ -27,6 +27,6 @@ class Owner
   end
 
   def species
-    "#{self.species}"
+    "#{@species}"
   end
 end
