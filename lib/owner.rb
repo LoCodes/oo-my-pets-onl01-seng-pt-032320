@@ -64,10 +64,10 @@ class Owner
   # Associations
   # Owner instance methods
   #   #cats
-  #     returnsa a collection of all the cats that belong to the owner
+  #     returnsa a collection of ALL the cats that belong to the owner
 
   def cats
-    Cat.select do |cat|
+    Cat.all.select do |cat|
       cat.owner == self
     end
   end
