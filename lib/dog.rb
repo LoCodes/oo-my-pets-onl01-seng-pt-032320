@@ -10,4 +10,11 @@ class Dog
     @mood = mood
     @@all << self
   end
+
+  # Class methods
+  #   knows all the dogs
+
+  def sel.all 
+    @@all 
+  end 
 end
