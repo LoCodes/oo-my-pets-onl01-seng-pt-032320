@@ -26,10 +26,16 @@ class Owner
     @species = species
   end
 
+  # #species
+  #   initializes with species set to human
+  #   can't change its species
+
   def species
     "#{@species}"
   end
 
+  # #say_species
+  #     can say its species
   def say_species
     "I am a #{@species}."
   end
