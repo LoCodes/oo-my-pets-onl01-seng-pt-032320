@@ -17,6 +17,7 @@
 #   #name
 #     can have a name
 #     cannot change owner's name
+require 'pry'
 
 class Owner
   attr_reader :name, :species, :say_species
@@ -79,6 +80,7 @@ class Owner
 
   def buy_cat(name)
     Cat.new(name, self)
+    binding.pry
   end
 
 end
